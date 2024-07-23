@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple List App</title>
+    <style>
+        /* Add your CSS styles here after completing the exercise*/
+        body{
+            background-color: rgb(143, 130, 130);
+        }
+        section{
+            background-color: rgb(88, 190, 204);
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            margin-top: 160px;
+            align-items: center;
+            border-radius: 8px;
+            color:  whitesmoke;
+        }
+        #input-text{
+            border: none;
+            height: 20px;
+            border-radius: 6px;
+            
+        }
+        button:hover{
+            background-color: rgb(214, 206, 206);
+            cursor: pointer;
+
+        }
+        button{
+            border: none;
+            background-color: aquamarine;
+            width: 67px;
+            height: 20px;
+            border-radius: 6px;
+            color: whitesmoke;
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <section>
+        <h1>Simple List App</h1>
+
+    <!-- Text box and button -->
+    <div>
+        <input type="text" id="input-text" placeholder="Enter item">
+        <button id="add-button">Add</button>
+    </div>
+
+    <h2>Added List:</h2>
+    <ul id="list-container"></ul>
+
+    </section>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
